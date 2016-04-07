@@ -10,6 +10,11 @@ webp-imageio is distributed under the [Apache Software License](https://www.apac
 - Ensure libwebp-jni.so or webp-jni.dll is accessible on the Java native library path (java.library.path system property)
 - The WebP reader and writer can be used like any other Image I/O reader and writer.
 
+# Step
+1. cmake .
+2. make
+3. copy native library and jar file from c/ and java/ to your project dir
+
 # Compiling
 The build should work with either Maven or CMake but the Maven build incorporates unit tests to confirm that the generated library works.
 

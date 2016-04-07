@@ -32,7 +32,7 @@ import java.nio.ByteOrder;
 import java.util.Hashtable;
 
 final class WebP {
-  private static boolean NATIVE_LIBRARY_LOADED = false;
+  private static boolean NATIVE_LIBRARY_LOADED = true;
 
   static synchronized void loadNativeLibrary() {
     if ( !NATIVE_LIBRARY_LOADED ) {
